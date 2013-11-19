@@ -1,10 +1,14 @@
 module-template: ! 'module MODULE_NAME where
 
 '
-extensions: {}
+extensions:
+  OverloadedStrings: true
+  MagicHash: true
 environment: null
 cabal-file: project.cabal
 modules:
+  MyMod:
+    filename: src/MyMod.hs
   Main(src/Main.hs):
     filename: src/Main.hs
 version: 1
