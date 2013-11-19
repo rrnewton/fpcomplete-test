@@ -19,7 +19,7 @@ bar = test + Prelude.fromIntegral mydef
 main :: IO ()
 main = do
   putStrLn "Welcome to the FP Haskell Center!"
-  B.putStrLn  "hi "  
+  B.putStrLn  "hi there"  
   let x = 333 :: Int
       yy = "hmm"
   B.putStrLn yy 
